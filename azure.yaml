@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
 
 name: dab-azure-cosmos-db-nosql-quickstart
+metadata:
+  template: dab-azure-cosmos-db-nosql-quickstart 
 services:
   api:
     project: ./src/api
